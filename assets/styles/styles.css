@@ -36,6 +36,10 @@ light gray: #efefef
     outline: #fff auto 5px;
 }
 
+.navbar-toggler:active {
+    outline: #fff auto 5px;
+}
+
 .navbar-toggler:hover {
     outline: #fff auto 5px;
 }
@@ -163,7 +167,7 @@ h5 {
     right: 0px;
     top: 0px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* background:url('/assets/images/github.svg') center center no-repeat; */
     opacity: .8;
     background-origin: content-box;
@@ -191,14 +195,6 @@ h5 {
 
 
 @media only screen and (max-width: 980px) {
-
-    .navbar-toggler:focus {
-        outline: #fff auto 5px;
-    }
-    
-    .navbar-toggler:hover {
-        outline: #fff auto 5px;
-    }
 
     .content {
         width: 80%;
