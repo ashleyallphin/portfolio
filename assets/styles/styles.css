@@ -196,6 +196,18 @@ h5 {
 
 @media only screen and (max-width: 980px) {
 
+    .navbar-toggler:focus {
+        outline: #fff auto 5px;
+    }
+    
+    .navbar-toggler:active {
+        outline: #fff auto 5px;
+    }
+    
+    .navbar-toggler:hover {
+        outline: #fff auto 5px;
+    }
+
     .content {
         width: 80%;
         margin-right: auto;
