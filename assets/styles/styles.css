@@ -203,6 +203,18 @@ h5 {
     .name h1 {
         font-size: 25px;
     }
+
+    .fa {
+        font-size: 40px;
+        position: absolute;
+        z-index: 2;
+        margin: 0;
+        right: 60px;
+        top: 12%; /* Adjust this value to move the positioned div up and down */
+        text-align: right;
+        width: 0;
+        color: #fff;
+        }
     
 }
 
@@ -243,6 +255,19 @@ h5 {
         background-color: #c6c6c6;
         padding: 10px 0 5px 0;
     }
+
+    .fa {
+        font-size: 40px;
+        position: absolute;
+        z-index: 2;
+        margin: 0;
+        right: 60px;
+        top: 12%; /* Adjust this value to move the positioned div up and down */
+        text-align: right;
+        width: 0;
+        color: #fff;
+        }
+    
 
 }
 
@@ -321,7 +346,7 @@ h5 {
         text-align: center;
         width: 100%; /* Set the width of the positioned div */
         background-color: #c6c6c6;
-        padding: 10px 0 10px 0;
+        padding: 5px 0 5px 0;
     }
 
     h5 {
@@ -330,11 +355,20 @@ h5 {
     }
 
     .fa-github {
-    margin-top: 5px;        
+    margin-top: 5px;
+    color: rgba(255, 255, 255, .8);
     }
 
     .fa {
-
+    font-size: 2.25rem;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    right: 15%;
+    top: 13%; /* Adjust this value to move the positioned div up and down */
+    text-align: right;
+    width: 0;
+    color: #fff;
     }
 
 }
