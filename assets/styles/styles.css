@@ -163,7 +163,7 @@ h5 {
     right: 0px;
     top: 0px;
     text-align: center;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     /* background:url('/assets/images/github.svg') center center no-repeat; */
     opacity: .8;
     background-origin: content-box;
@@ -191,6 +191,15 @@ h5 {
 
 
 @media only screen and (max-width: 980px) {
+
+    .navbar-toggler:focus {
+        outline: #fff auto 5px;
+    }
+    
+    .navbar-toggler:hover {
+        outline: #fff auto 5px;
+    }
+
     .content {
         width: 80%;
         margin-right: auto;
@@ -231,8 +240,6 @@ h5 {
         background-color: #c6c6c6;
         padding: 10px 0 10px 0;
     }
-
-
 
 }
 
@@ -364,7 +371,7 @@ h5 {
         width: 100%; /* Set the width of the positioned div */
         background-color: #c6c6c6;
         padding: 10px 0 10px 0;
-    }
+  }
 
     h5 {
         font-size: 3.5vw;
