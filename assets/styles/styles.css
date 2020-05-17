@@ -1,0 +1,319 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1740px;
+}
+
+.navbar {
+    background-color: #f81376;
+    color: white;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40px;
+    padding: 15px 40px 15px 40px;
+}
+
+.navbar-toggler:focus {
+    outline: #fff auto 5px;
+}
+
+.navbar-toggler:hover {
+    outline: #fff auto 5px;
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    background-color: rgb(239, 239, 239);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #f81376;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content {
+    width: 90%;
+}
+
+.jumbotron {
+    border: black 1px solid;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box img {
+    margin: 20px;
+}
+
+.box {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 10px 10px 0px 30px;
+    color: #000;
+}
+
+.box .text {
+    position: absolute;
+    z-index: 1;
+    margin: 0 0 0 0px;
+    left: 0;
+    right: 0;
+    top: 75%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    background-color: #c6c6c6;
+    padding: 20px 0 10px 0;
+}
+
+.box .text:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
+.box img {
+    margin: 20px auto 00px auto;
+}
+
+.fa {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    right: 60px;
+    top: 10%; /* Adjust this value to move the positioned div up and down */
+    text-align: right;
+    width: 0;
+    color: #fff;
+}
+
+.fa:hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+.modules {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    display: flex-wrap;
+}
+
+.links {
+    padding: 20px 0 20px 0;
+    width: 80%;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.footer p {
+    font-size: x-small;
+    color: white;
+}
+
+.footer {
+    padding: 30px;
+    background-color:#c6c6c6;
+    text-align: center;
+    border-top: 10px solid #f81376;
+    margin-top: 40px;
+}
+
+.fa-github {
+    color: rgba(255, 255, 255, .8);
+}
+
+
+/* =============================== */
+/* MEDIA QUERIES */
+/* =============================== */
+
+
+@media only screen and (max-width: 980px) {
+    .content {
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+
+    p {
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .name {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .name h1 {
+        font-size: 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .content {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .name {
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .name h1 {
+        font-size: 25px;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 1;
+        margin: 0 0 0 0px;
+        left: 0;
+        right: 0;
+        top: 75%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 100%; /* Set the width of the positioned div */
+        background-color: #c6c6c6;
+        padding: 10px 0 5px 0;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .content {
+        margin: 20px auto 20px auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .name {
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .name h1 {
+        font-size: 25px;
+    }
+
+    .header {
+        margin: 0;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .links {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links a {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .pagetitle {
+        margin-top: 0;
+    }
+
+    p {
+        padding: 10px;
+        line-height: 20px;
+    }
+
+    img {
+        padding-left: 20px;
+        float: none;
+    }
+
+    .box img {
+        padding: 0px 0 10px 0;
+        float: none;
+    }
+
+    .box {
+        margin-left: 20px;
+    }
+
+    .box .text {
+        position: absolute;
+        z-index: 1;
+        margin: 0 0 0 0px;
+        left: 0;
+        right: 0;
+        top: 72%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 100%; /* Set the width of the positioned div */
+        background-color: #c6c6c6;
+        padding: 10px 0 10px 0;
+    }
+
+    h5 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    .fa-github {
+    margin-top: 5px;        
+    }
+
+}
