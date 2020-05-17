@@ -164,7 +164,7 @@ h5 {
     top: 0px;
     text-align: center;
     /* border: 1px solid black; */
-    background:url(/assets/images/github.svg) center center no-repeat;
+    background:url(/../assets/images/github.svg) center center no-repeat;
     opacity: .8;
     padding: 10px;
     background-origin: content-box;
