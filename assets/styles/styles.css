@@ -29,7 +29,7 @@ light gray: #efefef
     color: white;
     border-bottom: 2px solid #fff;
     margin-bottom: 40px;
-    padding: 15px 40px 15px 40px;
+    padding: 12px 40px 12px 40px;
 }
 
 .navbar-toggler:focus {
@@ -155,7 +155,7 @@ h5 {
 }
 
 .github-link {
-    width: 22%;
+    width: 20%;
     height: 24%;
     position: absolute;
     z-index: 999;
@@ -164,14 +164,25 @@ h5 {
     top: 0px;
     text-align: center;
     /* border: 1px solid black; */
-    background:url(/../assets/images/github.svg) center center no-repeat;
+    /* background:url('/assets/images/github.svg') center center no-repeat; */
     opacity: .8;
-    padding: 10px;
     background-origin: content-box;
 }
 
 .github-link:hover {
     opacity: .5;
+}
+
+.github-link img {
+    width: 90%;
+    position: relative;
+    z-index: 999;
+    margin-top: 0px;
+    right: 0px;
+    top: 0px;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* =============================== */
@@ -218,8 +229,10 @@ h5 {
         text-align: center;
         width: 100%; /* Set the width of the positioned div */
         background-color: #c6c6c6;
-        padding: 15px 0 10px 0;
+        padding: 10px 0 10px 0;
     }
+
+
 
 }
 
@@ -258,10 +271,21 @@ h5 {
         text-align: center;
         width: 100%; /* Set the width of the positioned div */
         background-color: #c6c6c6;
-        padding: 15px 0 10px 0;
+        padding: 10px 0 10px 0;
+    }
+
+    .github-link {
+        width: 22%;
+        padding: 0px;
+    }
+
+    .github-link img {
+        width: 90%;
     }
 
 }
+
+
 
 @media only screen and (max-width: 640px) {
 
@@ -347,5 +371,26 @@ h5 {
         margin-bottom: 8px;
         margin-top: 5px;
     }
+
+    .github-link {
+        width: 20%;
+        padding: 7px;
+    }
+
+    .github-link img {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .github-link {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .github-link img {
+        width: 90%;
+    }   
 
 }
