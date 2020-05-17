@@ -325,12 +325,16 @@ h5 {
     }
 
     h5 {
-        font-size: 18px;
+        font-size: 3.5vw;
         margin-bottom: 2px;
     }
 
     .fa-github {
     margin-top: 5px;        
+    }
+
+    .fa {
+
     }
 
 }
