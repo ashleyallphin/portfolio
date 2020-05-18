@@ -20,10 +20,18 @@ light gray: #efefef
     height: auto;
 }
 
-.scrollbar::-webkit-scrollbar-thumb {
-    background-color:#ffe500;
-    border-radius:16px;
-    border:5px solid #fff;
+body::-webkit-scrollbar {
+    width: .75em;
+    }
+
+body::-webkit-scrollbar-track {
+    background-color: #efefef;
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 230, 0, 1);
+    outline: 0px solid slategrey;
 }
 
 .container {
@@ -38,15 +46,8 @@ light gray: #efefef
     padding: 12px 40px 12px 40px;
 }
 
-.navbar-toggler:focus {
-    outline: #fff auto 5px;
-    outline: 5px auto -webkit-focus-ring-color;
-}
-
-.navbar-toggler:active {
-    outline: #fff auto 5px;
-}
-
+.navbar-toggler:active,
+.navbar-toggler:focus,
 .navbar-toggler:hover {
     outline: #fff auto 5px;
 }
@@ -166,9 +167,6 @@ h5 {
     text-align: center;
     border-top: 10px solid #f81376;
     margin-top: 40px;
-    min-height: -webkit-calc(100% - 100px);
-    min-height: -moz-calc(100% - 100px);
-    min-height: calc(100% - 100px);
 }
 
 
@@ -307,8 +305,6 @@ h5 {
 
 }
 
-
-
 @media only screen and (max-width: 640px) {
 
     .content {
@@ -386,7 +382,7 @@ h5 {
         width: 100%; /* Set the width of the positioned div */
         background-color: #c6c6c6;
         padding: 10px 0 10px 0;
-  }
+    }
 
     h5 {
         font-size: 3.5vw;
@@ -402,6 +398,7 @@ h5 {
     .github-link img {
         width: 85%;
     }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -413,6 +410,6 @@ h5 {
 
     .github-link img {
         width: 90%;
-    }   
+    } 
 
 }
