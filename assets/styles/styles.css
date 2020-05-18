@@ -20,6 +20,12 @@ light gray: #efefef
     height: auto;
 }
 
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color:#ffe500;
+    border-radius:16px;
+    border:5px solid #fff;
+}
+
 .container {
     max-width: 1740px;
 }
@@ -34,6 +40,7 @@ light gray: #efefef
 
 .navbar-toggler:focus {
     outline: #fff auto 5px;
+    outline: 5px auto -webkit-focus-ring-color;
 }
 
 .navbar-toggler:active {
@@ -50,6 +57,9 @@ light gray: #efefef
 
 body {
     background-color: rgb(239, 239, 239);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;;
 }
 
 h1 {
@@ -156,7 +166,11 @@ h5 {
     text-align: center;
     border-top: 10px solid #f81376;
     margin-top: 40px;
+    min-height: -webkit-calc(100% - 100px);
+    min-height: -moz-calc(100% - 100px);
+    min-height: calc(100% - 100px);
 }
+
 
 .github-link {
     width: 20%;
@@ -189,24 +203,17 @@ h5 {
     margin-right: auto;
 }
 
+.about-me img {
+    float: left;
+    margin-right: 20px;
+}
+
 /* =============================== */
 /* MEDIA QUERIES */
 /* =============================== */
 
 
 @media only screen and (max-width: 980px) {
-
-    .navbar-toggler:focus {
-        outline: #fff auto 5px;
-    }
-    
-    .navbar-toggler:active {
-        outline: #fff auto 5px;
-    }
-    
-    .navbar-toggler:hover {
-        outline: #fff auto 5px;
-    }
 
     .content {
         width: 80%;
