@@ -362,6 +362,13 @@ h5 {
         float: none;
     }
 
+    .about-me img {
+        padding: 20px;
+        float: none;
+        display: block;
+        max-width: 100%;
+    }
+
     .box img {
         padding: 0px 0 10px 0;
         float: none;
