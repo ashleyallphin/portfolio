@@ -20,6 +20,7 @@ light gray: #efefef
     height: auto;
 }
 
+
 body::-webkit-scrollbar {
     width: .75em;
     }
@@ -35,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
-    max-width: 1740px;
+    max-width: 2740px;
 }
 
 .navbar {
@@ -88,11 +89,15 @@ h3 {
     color: #fff;
 }
 
-
 h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #fff;
+}
+
+h4 {
+    color: #fff;
+    font-size: 70px;
 }
 
 .content {
@@ -279,6 +284,7 @@ h5 {
     padding-bottom: .2em;
     padding-top: .4em;
 }
+
 
 /* =============================== */
 /* MEDIA QUERIES */
