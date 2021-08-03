@@ -1,4 +1,4 @@
 # Coding Boot Camp Portfolio
 
 
-![portofolio](assets/images/portfolio-page.png)
+![portfolio](assets/images/portfolio-page.png)
